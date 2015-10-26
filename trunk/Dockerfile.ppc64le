@@ -4,7 +4,7 @@
 #       Do not use this for production or for sharing with others.
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-FROM buildpack-deps:jessie
+FROM ppc64le/buildpack-deps:jessie
 
 # "download_prerequisites" pulls down a bunch of tarballs and extracts them,
 # but then leaves the tarballs themselves lying around
